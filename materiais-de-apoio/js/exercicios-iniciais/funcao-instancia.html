@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        function Pessoa(nome, idade){
+            if(nome == undefined){
+                nome = 'boca';
+            }
+            if(idade == undefined){
+                idade = "de 09";
+            }
+            this.nome = nome;
+            this.idade = idade;
+            
+            this.printNome = function(nome, idade){
+                alert(nome + " " + idade);
+            }
+            
+        }
+
+
+        var persona = new Pessoa();
+        var pessoa = new Pessoa("Kevyn", 28);
+        var pessoa_2 = new Pessoa("Guilherme", 27);
+        
+
+        alert(persona.nome + " " + persona.idade);
+        alert(pessoa.nome + " " + pessoa.idade);
+        alert(pessoa_2.nome + " " + pessoa_2.idade);
+
+    </script>
+
+
+</body>
+</html>
