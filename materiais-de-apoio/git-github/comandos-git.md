@@ -7,7 +7,7 @@ Aqui está os comandos mais utilizados do git para consultas rapidas, para procu
 <br>
 
 ## Sumário
-1. <a href="#-comandos">Comandos essênciais</a>
+1. <a href="#-1">Comandos essênciais</a>
 2. <a href="#-Branch">Comandos para Branch</a>
 3. <a href="#-Contribuição">Comandos para Contribuição open-source</a>
 4. <a href="#-Análises">Comandos para Análises e inspeção</a>
