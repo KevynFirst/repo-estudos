@@ -28,7 +28,7 @@ Este repositório não apenas serve como um registro de minha jornada de aprendi
       <td>00</td>
       <td>VSCODE</td>
       <td align="center">
-        <a href="./materiais-de-apoio/vscode/https://github.com/KevynFirst/repo-estudos/blob/main/materiais-de-apoio/vscode/Atalhos%20VSCODE.png">
+        <a href="./repo-estudos/materiais-de-apoio/vscode/Atalhos VSCODE.png">
            <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-E94D5F?style=for-the-badge">
         </a>
       </td>    
