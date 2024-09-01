@@ -1,0 +1,20 @@
+para limpar os arquivos untracked:
+- git clean -f (flag para forçar o comando)
+
+Para otimizar o repositorio, o comando é:
+- git gc
+
+Checar a integridade dos arquivos, o comando é:
+- git fsck
+
+Mapear so os commits de um unico branch, o comando é:
+- git log
+
+Para mapear todos os passos feito no repo, até das mudanças de branch, o comando é: [tempo de expiração 30 dias]
+- git reflog
+
+Podemos se mover para frente ou para tras das mudanças, com o comando:
+- git reset --hard 'codigo do reflog'
+
+Transformando o repo em um arquivo compacto, seria por exemplo: 
+- git archive --format zip --output master_files.zip master

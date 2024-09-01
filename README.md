@@ -3,7 +3,7 @@
      <img align="center" width="40px" src="./imgs/collection_icon_152653.png"></a>
     <span> Repositório de Materiais de Estudo</span>
 </h1>
-Repositório dedicado à organização e armazenamento de todos os materiais gerados durante minha jornada de aprendizado em programação. Este Repo abrange em cada pasta à representação de uma tecnologia específica, contendo, códigos de exemplo, exercícios práticos e quaisquer outros recursos relevantes para a compreensão e aplicação dos conceitos abordados.
+Repositório dedicado à organização e armazenamento de todos os materiais gerados durante minha jornada de aprendizado. Este Repo abrange em cada pasta à representação de uma tecnologia específica, contendo, códigos de exemplo, exercícios práticos e quaisquer outros recursos relevantes para a compreensão e aplicação dos conceitos abordados.
 <br>
 <br>
 
@@ -35,21 +35,21 @@ Este repositório não apenas serve como um registro de minha jornada de aprendi
     </tr>
     <tr>
       <td>01</td>
-      <td>HTML5 & CSS3</td>
+      <td>GIT</td>
       <td align="center">
-        <a href="./materiais-de-apoio/html-css/">
+        <a href="./materiais-de-apoio/git-github/comandos-git.md">
            <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-30A3DC?style=for-the-badge">
         </a>
       </td>
     </tr>
     <tr>
       <td>02</td>
-      <td>JAVASCRIPT</td>
+      <td>HTML & CSS</td>
       <td align="center">
-        <a href="./materiais-de-apoio/js/">
+        <a href="./materiais-de-apoio/html-css/">
            <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-E94D5F?style=for-the-badge">
         </a>
-      </td>
+      </td>    
     </tr>
     <tr>
       <td>03</td>
@@ -62,37 +62,10 @@ Este repositório não apenas serve como um registro de minha jornada de aprendi
     </tr>
     <tr>
       <td>04</td>
-      <td>NODE.JS</td>
+      <td>JAVASCRIPT</td>
       <td align="center">
-        <a href="./materiais-de-apoio/node/">
+        <a href="./materiais-de-apoio/js/">
            <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-E94D5F?style=for-the-badge">
-        </a>
-      </td>    
-    </tr>
-        <tr>
-      <td>05</td>
-      <td>REACT.JS</td>
-      <td align="center">
-        <a href="./materiais-de-apoio/react/">
-           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-30A3DC?style=for-the-badge">
-        </a>
-      </td>    
-    </tr>
-    <tr>
-      <td>06</td>
-      <td>TAIWIND</td>
-      <td align="center">
-        <a href="./materiais-de-apoio/tailwind/">
-           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-E94D5F?style=for-the-badge">
-        </a>
-      </td>    
-    </tr>
-    <tr>
-      <td>07</td>
-      <td>GIT & GITHUB</td>
-      <td align="center">
-        <a href="./materiais-de-apoio/git-github/comandos-git.md">
-           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-30A3DC?style=for-the-badge">
         </a>
       </td>
     </tr>
@@ -115,31 +88,33 @@ Utilizo uma metodologia de aprendizado em quatro passos. Primeiro, assisto à vi
         <img width="80px" align="center" src="./imgs/danki.png"/>
       </a>
       <br>
-      <span align="center">danki code</span>
     </td>
     <td align="center">
       <a href="https://www.dio.me">
         <img width="80px" align="center" src="./imgs/dio.png"/>
       </a>
       <br>
-      <span align="center">dio</span>
     </td>
-    <td align="center">
+    <!-- <td align="center">
       <a href="https://www.rocketseat.com.br">
         <img width="80px" align="center" src="./imgs/rocketseat.png"/>
       </a>
       <br>
-      <span align="center">rocketseat</span>
-    </td>
+    </td> -->
     <td align="center">
-      <a href="https://github.com/elidianaandrade">
+      <a href="https://www.udemy.com">
         <img width="80px" align="center" src="./imgs/udemy.png"/>
       </a>
       <br>
-      <span align="center">udemy</span>
+    </td>
+    <td align="center">
+      <a href="https://www.coursera.org/?tm=tt&ap=gads&aaid=adax8renzhuEJ&gad_source=1&gclid=CjwKCAjwodC2BhAHEiwAE67hJLYwD68eWmLqzXW_Ws5HeUCrZbn5NEJQ2sKP0TPRDUlH5HQpBnHCixoClZUQAvD_BwE">
+      <img width="80px" align="center" src="./imgs/coursera.png"/>
+      </a>
+      <br>
     </td>
   </tr>
 </table>
 
-##
-<div align="center">Feito por 🚀<a href="https://github.com/kevynfirst">kevynfirst </a></div>
+<!-- ##
+<div align="center">Feito por 🚀<a href="https://github.com/kevynfirst">kevynfirst </a></div> -->

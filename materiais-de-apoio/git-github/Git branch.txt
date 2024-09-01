@@ -1,0 +1,54 @@
+
+***TAGS***
+
+Para criar uma tag que seria um checkpoint de um branch, o comando é: [obs.:é bom commitar ao fim de cada tag]
+- git tag -a v1.0 -m "Versão_X"
+
+Para visualizar quantas tag temos:
+- git tag
+
+Para ver detalhes de uma tag o comando é:
+- git show 'nome da tag'
+
+Para mudar entre tags usamos o comando:
+- git checkout 'nome da tag'
+
+Para enviar tags para o repo remoto, o comando é: [obs.:não esqueça de commitar antes]
+- git push origin 'nome da tag', ou enviar todos de uma só vez, git push origin --tags
+
+
+***STASH***
+
+Para excluir os codigos que fiz no meu branch, mas não permanentemente, o comando é: [jogar na lixeira]
+- git stash
+
+Podemos verificar as stashs que foram criadas e e seus ids, o comando: [lista de lixos]
+- git stash list
+
+Caso veja que aquela stash era a melhor abordagem, recuperamos com: [recuperar da lixeira]
+- git stash apply 'id da stash' 
+
+Se tiver duvidas do conteudo daquela stash, da para verificar o conteudo com o comando:
+- git stash show -p 'id da stash'
+
+Para remover todas as stashs o comando é: [limpar lixeira]
+- git stash clear
+
+Já para remover apenas uma stash é:
+- git stash drop 'id do stash'
+
+
+
+Obs.: sempre commitar antes de trocar para outra branch, para que a modificação não vá junto na mudança de branch e prestar atenção que as branches tem que partir apenas da master. Fluxo seria:
+ - Se a branch já tiver criada apenas mude para ela = git checkout função_x
+ - Se não crie um novo branch para uma nova funcionalidade = git checkout -b função_x;
+ - Confirme os arquivos modificados = git status;
+ - Commitar a branch = git commit -a -m 'função x terminada';
+ - Atualizar o branch do repo remoto = git push --set-upstream origin função_x;
+ - Confirme qual branch você está = git branch;
+ - Voltar para a master = git checkout master;
+ - Atualizar a master com os dados do repo remoto = git pull;
+ - [Quem fará essa parte é o lider do projeto pelo github] Se a branch tiver sido aceita, unir com a master = git merge função_x; 
+ - [Quem fará essa parte é o lider do projeto pelo github] Subir atualizações para o repo remoto = git push;
+ - Se não foi aprovado e precisa continuar em um branch que estava mexendo antes, atualize ele com a master = git merge master  
+ - repete fluxo.

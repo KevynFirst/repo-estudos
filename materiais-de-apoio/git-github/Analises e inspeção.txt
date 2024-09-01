@@ -1,0 +1,11 @@
+para ver informações uteis de um branch:
+- git show 'nome do branch'
+
+Para exibir as diferenças entre um branch e repo remoto:
+- git diff 
+
+Para exibir as diferenças entre um branch e outro: [também serve para arquivos]
+- git diff 'nome branch 1' 'nome branch 2'
+
+Para ter uma log resumida do projeto, o comando é:
+- git shortlog

@@ -1,0 +1,32 @@
+Para Receber as atualizações do repo remoto:
+- git pull
+
+
+Para puxar do repo remoto os Branches que não está no seu git local, usamos o comando:
+- git fecth -a
+
+
+***REMOTE***
+
+Para adicionar um repo para trackear:
+- git remote add origin 'link do repo' .git
+
+Para remover um repo:
+- git remote rm origin
+
+Ver a origin de cada repo:
+- git remote -v
+
+
+***SUBMODULES***
+
+Para adicionar um submodulo o comando é:
+- git submodule add 'link do repo'
+
+Para verificar um submodulo:
+- git submodule
+
+Para enviar para o repo do submodulo o comando é: [não esqueça de commitar antes]
+- git push --recurse-submodules=on-demand
+
+
